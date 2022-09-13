@@ -8,3 +8,13 @@ variable "region_name"{
 variable "zone_name" {
     type = string
 }
+
+variable "pub_subnet_name" {
+    type = string
+}
+variable "pub_subnet_cidr" {
+    type = string
+}
+variable "pub_subnet_region" {
+    type = string
+}
